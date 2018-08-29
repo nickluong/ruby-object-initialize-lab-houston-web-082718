@@ -6,6 +6,10 @@ class Dog
     if(breed == nil)
     @breed = "mutt"
     end 
+    
+  else 
+    @breed = breed 
+  end 
   
   end 
     
